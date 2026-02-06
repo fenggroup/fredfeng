@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Fred Feng"
+  description: "The personal website for Fred Feng"
+  site-url: https://fenggroup.org/fredfeng
+  search: false
+  back-to-top-navigation: true
+  navbar:
+    right:
+      - text: Biography
+        href: bio.qmd
+      - text: CV
+        href: cv/index.qmd
+    tools:
+      - icon: github
+        href: https://github.com/frfeng
+        text: GitHub
+        target: _blank
+        rel: noopener noreferrer
+      - icon: youtube
+        href: https://www.youtube.com/@drfredfeng
+        text: YouTube
+        target: _blank
+        rel: noopener noreferrer
+      - icon: bluesky
+        href: https://bsky.app/profile/fredfeng.bsky.social
+        text: Bluesky
+        target: _blank
+        rel: noopener noreferrer
+  page-footer:
+    left: |
+      &copy; []{#current-year} Fred Feng
+    center: |
+      Powered by [Quarto](https://quarto.org){target="_blank"}
+    right: |
+      License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/){target="_blank"}
+
+format:
+  html:
+    respect-user-color-scheme: true
+    theme:
+      # the theme's light and dark scss files are adopted from 
+      # https://github.com/quarto-dev/quarto-web/ 
+      dark: [cosmo, assets/stylesheets/theme-dark.scss]
+      light: [cosmo, assets/stylesheets/theme.scss]
+    css: assets/stylesheets/main.css
+    toc: true
+    include-after-body:
+      - file: assets/scripts/current-year.html
+
+execute:
+  freeze: auto

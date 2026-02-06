@@ -1,0 +1,7 @@
+## Affiliations
+- [Michigan Institute for Data & AI in Society (MIDAS)](https://midas.umich.edu/)
+- [Michigan Institute for Computational Discovery and Engineering (MICDE)](https://micde.umich.edu/)
+- [The Carpentries at the University of Michigan](https://umcarpentries.org/)
+- [University of Michigan Injury Prevention Center](https://injurycenter.umich.edu/)
+- [University of Michigan Poverty Solutions](https://poverty.umich.edu/)
+- [Dearborn Artificial Intelligence Research Center](https://umdearborn.edu/cecs/research/centers/dearborn-artificial-intelligence-research-dair-center)

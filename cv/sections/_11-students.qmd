@@ -1,0 +1,32 @@
+## Students
+
+### Ph.D. students
+
+- Rayane Moustafa, (2023-present)
+- Gandhimathi Padmanaban (2021-present)
+- Hanumad Vasanth Munnamgi (2019-present)
+
+### Ph.D. committees
+
+- Dr. Zifei Wang, ISE, UM-Dearborn, PhD defense, 2026, Chair: Shan Bao
+- Dr. Wael Hassanieh, ISE, UM-Dearborn, PhD defense, 2025, Chair: Abdallah Chehade
+- Dr. Isaiah Oyewole, ISE, UM-Dearborn, PhD defense, 2025, Chair: Abdallah Chehade
+- Dr. Dania Ammar, ISE, UM-Dearborn, PhD defense, 2024, Chair: Shan Bao
+- Dr. Aishwary Pawar, ISE, UM-Dearborn, PhD defense, 2023, Chair: DeLean Tolbert Smith
+- Dr. Mayuresh Savargaonkar, ISE, UM-Dearborn, PhD defense, 2023, Chair: Abdallah Chehade
+- Dr. Jackie Ayoub, ISE, UM-Dearborn, PhD defense, 2022, Chair: Feng Zhou
+- Dr. Zunya Shi, ISE, UM-Dearborn, PhD defense, 2021, Chair: Abdallah Chehade
+- Dr. Kassem Moustafa, ISE, UM-Dearborn, PhD defense, 2020, Chair: Zhen Hu
+
+### Master's students
+- Rayane Moustafa, UM-Dearborn, August 2023
+    - Thesis: "[Using Digital Lidar to Study Cycling Safety and Distance Estimation of Passing Vehicles](https://dx.doi.org/10.7302/8118)"
+- Gandhimathi Padmanaban, UM-Dearborn, August 2021
+    - Thesis: "[Computational Human Performance Modeling using Queuing Network in an Open-Source Platform](https://dx.doi.org/10.7302/2328)"
+- Ayah Hamad, UM-Dearborn, May 2021
+    - Thesis: "[Two Wheelistic: Development of a High-Fidelity Virtual Reality Cycling Simulator for Transportation Safety Research](https://dx.doi.org/10.7302/1035)"
+
+### Undergraduate students
+-   Victoria De La Rue (2022-present), Christopher Salisbury
+    (2022-2023), Amardeep Dhingra (2022-2023), Daniel Maudlin (2021),
+    Callisto Hillard (2018-2020)

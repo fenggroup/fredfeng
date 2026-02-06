@@ -1,0 +1,7 @@
+## Research areas
+
+- Advancing safe, sustainable, and just systems for cities and communities
+through data-driven insights
+- To this end, we use a variety of research methods including data
+analytics, applied statistics, causal inference, machine learning, human
+factors, and computational modeling and simulation.

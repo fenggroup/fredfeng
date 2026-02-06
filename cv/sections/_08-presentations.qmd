@@ -1,0 +1,13 @@
+## Presentations
+
+1. "Who Injured Whom-Counterparties in Road Traffic Crashes, Vehicle Bloat, and Crash Regardfulness", Next Generation Transportation Systems Seminar Series, University of Michigan, Ann Arbor, Civil and Environmental Engineering, March 2025
+1. "Cycling safety: From crash data analysis to a naturalistic cycling study", [Center for Connected and Automated Transportation (CCAT)](https://ccat.umtri.umich.edu/) Research Review, October 2021 ([recording](https://www.youtube.com/watch?v=bbyOCaJ4P7s))
+1. "A Naturalistic Cycling Study in Ann Arbor, Michigan", Tran-SET Webinar Series, September 2021 ([recording](https://www.youtube.com/watch?v=89XMKwFIjbk))
+1. "Sorry Mate I Didn't See You-Driver distraction and in-vehicle infotainment touch screen user interface design", General Motors Human Factors/User Experience Seminar, June 2020
+1. "Bicycling safety in the future of mobility", Next Generation Transportation Systems Seminar Series, University of Michigan, Ann Arbor, Civil and Environmental Engineering, September 2019
+1. "Bicycling safety and human-powered mobility in the era of automated driving." New Faculty Research Seminar Series, University of Michigan-Dearborn, November 2018
+1. Automated Vehicle Symposium Breakout Session: "AVs & Vulnerable road users: Envisioning a healthy, safe, and equitable future", July 2018
+1. Michigan Bicycle Conference: Bicycle Data and Research Workshop, June 2018
+1. Transportation Research Board Annual Meeting Workshop: "When AV and people meet - planning for the pedestrian/bike/autonomous vehicle interaction", January 2018
+1. Michigan Institute for Data Science (MIDAS) Mobile Sensor Meeting, November 2017
+1. "Here's the data, now what? Using large-scale naturalistic driving data to study driver behaviors and develop advance safety technologies" Next Generation Transportation Systems Seminar Series, University of Michigan, Ann Arbor, Civil and Environmental Engineering, April 2017

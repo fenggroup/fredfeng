@@ -1,0 +1,55 @@
+---
+title: ""
+filters:
+  - multibib
+validate-yaml: false
+bibliography: 
+  journals: bib-files/journals.bib
+  conferences: bib-files/conferences.bib
+  books: bib-files/books.bib
+  tech-reports: bib-files/tech-reports.bib
+  patents: bib-files/patents.bib
+nocite: |
+  @*
+csl: ../assets/chicago.csl
+format: 
+  html: default
+  pdf:
+    geometry:
+      - top=1in
+      - bottom=1in
+      - left=1in
+      - right=1in
+    output-file: cv-fredfeng.pdf
+
+---
+
+## Fred Feng
+
+{{< include sections/_01-basic.qmd >}}
+
+{{< include sections/_02-research-areas.qmd >}}
+
+{{< include sections/_03-employment.qmd >}}
+
+{{< include sections/_04-education.qmd >}}
+
+{{< include sections/_05-grants.qmd >}}
+
+{{< include sections/_06-publications.qmd >}}
+
+{{< include sections/_07-software.qmd >}}
+
+{{< include sections/_08-presentations.qmd >}}
+
+{{< include sections/_09-press.qmd >}}
+
+{{< include sections/_10-teaching.qmd >}}
+
+{{< include sections/_11-students.qmd >}}
+
+{{< include sections/_12-awards.qmd >}}
+
+{{< include sections/_13-affiliations.qmd >}}
+
+{{< include sections/_14-services.qmd >}}

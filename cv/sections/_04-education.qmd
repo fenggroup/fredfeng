@@ -1,0 +1,10 @@
+## Education
+
+- Ph.D., [Industrial and Operations Engineering](https://ioe.engin.umich.edu/), 2015
+    - [University of Michigan, Ann Arbor](https://umich.edu/)
+    - Dissertation: ["Queuing network modeling of human multitask performance and its application to usability testing of in-vehicle infotainment systems"](https://deepblue.lib.umich.edu/handle/2027.42/113590), Advisor: [Yili Liu](https://websites.umich.edu/~yililiu/)
+- M.S., Mechanical Engineering, 2009
+    - [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm), China
+    - Thesis: "Driver drowsiness detection based on multi-sensor data fusion", Advisor: [Bo Cheng](https://ieeexplore.ieee.org/author/37577309100)
+- B.E., Automotive Engineering, 2006
+    - [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm), China

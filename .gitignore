@@ -1,0 +1,15 @@
+# Quarto output directories
+_site/
+.quarto/
+/.quarto/
+**/*.quarto_ipynb
+
+# LaTeX intermediate files
+*.tex
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz

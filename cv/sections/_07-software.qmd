@@ -1,0 +1,7 @@
+## Open-source software
+
+1. Interactive visualization of probability distributions ([Website](https://probstats.org/), [GitHub repo](https://github.com/probstats/probstats.github.io))
+1. Web-based interactive dashboards for bicycle counter data
+    - Dashboard based on Python & Plotly ([Website](https://bikecounter.org/), [GitHub repo](https://github.com/fenggroup/bike-traffic-plotly-dash))
+    - Dashboard based on JavaScript & D3.js ([GitHub repo](https://github.com/fenggroup/bike-counter-d3))
+1. Web-based point cloud visualization for active transportation ([Website](https://fenggroup.org/pointcloud/examples/bike-2.html), [GitHub repo](https://github.com/fenggroup/pointcloud))

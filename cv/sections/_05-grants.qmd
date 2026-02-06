@@ -1,0 +1,20 @@
+## Grants
+
+### External grants
+
+1. "[CAREER: Improving bicycling safety by developing a research framework for studying driver-bicyclist interactions](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2142757)" National Science Foundation (NSF) Faculty Early Career Development (CAREER) Award ($549,037), 5 years (2022-2027), PI: Fred Feng
+1. "A data-driven approach on examining vulnerable road user safety: from real-world corner cases to virtual simulation" Sponsor: [Toyota Collaborative Safety Research Center](https://amrd.toyota.com/division/csrc/), 18 months(2022-2023), PI: Shan Bao, Co-PI: Fred Feng
+1. "Online driver model development to support shift schedule optimization and powertrain system improvements\" Sponsor: Ford Motor Company, 2 years (2021-2023), PI: Fred Feng
+1. "Research on the trending of micromobility: patterns and issues" Sponsor: [Mcity](https://mcity.umich.edu/) tailored project from Honda Motor Company, 9 months (2021-2022), PI: Shan Bao, Co-PI: Fred Feng
+1. "A continued naturalistic bicycling study in Ann Arbor and bicycle corner case simulation in CARLA" Sponsor: [Toyota Research Institute](https://www.tri.global/), 2 years (2019-2020), PI: Fred Feng
+1. "Developing bicycle-related corner case scenarios and a bicyclist model for testing self-driving cars using naturalistic driving data and crash data" Sponsor: [Toyota Research Institute](https://www.tri.global/), 7 months (2018-2019), Subaward, PI: Fred Feng
+1. "A naturalistic bicycling study in the Ann Arbor area" Sponsor: [Toyota Research Institute](https://www.tri.global/), 4 months (2018), Subaward, PI: Fred Feng
+
+### Internal grants
+
+1. "Developing an open-source and scalable platform for analyzing and publishing bike traffic data: a community-engaged approach to sustainable transportation planning and benchmarking" Research Initiation & Development Grant ($24,984), 2022-2023, PI: Fred Feng
+1. "The e-bike boom: Examining key safety factors on e-bike potential to promote sustainability and equity in Detroit" UM-Dearborn--UM-Flint Collaborative Research Grants, ($39,970), 2022-2023, Co-PI: Fred Feng
+1. "Measuring bicycle traffic volume using pneumatic bicycle counter" Summer Undergraduate Research Experience (SURE) Program ($3,200), 2022, PI: Fred Feng ([The student mentee Christopher Salisbury won the 2nd place poster award.](https://umdearborn.edu/academics/undergraduate-studies/undergraduate-research/sure-program))
+1. "Collection and analysis of traffic data to examine the effectiveness of the Dearborn Healthy Streets program" Office of Metropolitan Impact (OMI) Community-Based Research Seed Grants ($8,180), 2021, PI: Fred Feng
+1. "Center for Community Health and Equity Research" Research Planning Grants for Catalyzing Faculty Research Innovation and Collaboration ($9,968), 2020, Co-PI: Fred Feng
+1. "A Browser-based Tool for Interactive Visualizations of Probability Distributions" Open Educational Resources (OER) Supplemental Materials Grant ($500), 2020, PI: Fred Feng

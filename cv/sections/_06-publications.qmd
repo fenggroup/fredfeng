@@ -1,0 +1,26 @@
+## Publications
+
+### Journal articles
+
+::: {#refs-journals}
+:::
+
+### Conference proceedings
+
+::: {#refs-conferences}
+:::
+
+### Book chapters
+
+::: {#refs-books}
+:::
+
+### Technical reports
+
+::: {#refs-tech-reports}
+:::
+
+### Granted patents
+
+::: {#refs-patents}
+:::

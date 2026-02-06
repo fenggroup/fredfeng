@@ -1,0 +1,58 @@
+---
+title: ""
+page-layout: full
+back-to-top-navigation: false
+---
+
+::: {#homepage-top-container}
+
+:::: {.columns}
+::: {.column width="16%" #profile-img}
+![](assets/images/fredfeng.jpg){width="100%" fig-align="left"}
+:::
+::: {.column width="2%"}
+:::
+::: {.column width="82%"}
+- Associate Professor
+- [Industrial and Manufacturing Systems Engineering](https://umdearborn.edu/cecs/departments/industrial-and-manufacturing-systems-engineering)
+- [University of Michigan-Dearborn](https://umdearborn.edu/)
+- Email: <fredfeng@umich.edu>
+- Office: 2320 HPEC
+- Address: 4901 Evergreen Rd, Dearborn, MI 48128, USA
+:::
+::::
+
+:::
+
+::: {#homepage-container}
+
+## Research areas
+- Advancing safe, sustainable, and just systems for cities and communities through data-driven insights
+- Find more details on our [research website](https://fenggroup.org)
+
+## Employment
+- [University of Michigan-Dearborn](https://umdearborn.edu/)
+    - Associate Professor (2024-present)
+    - Assistant Professor (2018-2024)
+- [University of Michigan Transportation Research Institute](http://www.umtri.umich.edu/)
+    - Postdoc (2015-2018)
+
+## Education
+- Ph.D. in [Industrial and Operations Engineering](https://ioe.engin.umich.edu/), the [University of Michigan](https://umich.edu/), Ann Arbor (2015)
+- M.S. in Mechanical Engineering, [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm), China (2009)
+- B.E. in Automotive Engineering, [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm), China (2006)
+
+## Teaching
+- [IMSE 317 Engineering Probability and Statistics](https://imse317.github.io)
+- [IMSE 440 Applied Statistical Models in Engineering](https://imse440.github.io)
+- [IMSE 586 Big Data Analytics and Visualization](https://imse586.github.io)
+
+## Affiliations at the University of Michigan
+- [Michigan Institute for Data & AI in Society (MIDAS)](https://midas.umich.edu/)
+- [Michigan Institute for Computational Discovery and Engineering (MICDE)](https://micde.umich.edu/)
+- [The Carpentries at the University of Michigan](https://umcarpentries.org/)
+- [University of Michigan Injury Prevention Center](https://injurycenter.umich.edu/)
+- [University of Michigan Poverty Solutions](https://poverty.umich.edu/)
+- [Dearborn Artificial Intelligence Research Center](https://umdearborn.edu/cecs/research/centers/dearborn-artificial-intelligence-research-dair-center)
+
+:::

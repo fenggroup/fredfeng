@@ -1,0 +1,49 @@
+## Teaching
+
+- **IMSE 317 Engineering Probability and Statistics**, W19, F20, W21, F21,
+W22, F25, W26
+    - Undergraduate course, University of Michigan-Dearborn
+    - Course website: <https://imse317.github.io>
+- **IMSE 440 Applied Statistical Models in Engineering**, W20, W21, W22, W23, W24
+    - Undergraduate course, University of Michigan-Dearborn
+    - Course website: <https://imse440.github.io>
+- **IMSE 586 Big Data Analytics and Visualization**, F18, F19, F20, F21, F22, F23, F25
+    - Graduate course, University of Michigan-Dearborn
+    - Course website: <https://imse586.github.io>
+- **IOE 366 Linear Statistical Models**, F17
+    - Undergraduate course, University of Michigan, Ann Arbor.
+    - Co-instructed with Shan Bao
+- **IMSE 577 User Interface Design and Analysis**, W17
+    - Graduate course, University of Michigan-Dearborn. 
+    - Co-instructed with Shan Bao
+- **IOE 474 Simulation** (Graduate Student Instructor), F10, F11, F12, W11, W12, W13
+    - Undergraduate course, University of Michigan, Ann Arbor
+    - *Highlight*: IOE Department 2012 Graduate Student Instructor of the
+    Year Award (anonymously voted by students, one recipient per year)
+
+### Guest lecturer
+
+- IMSE 501 Human Factors & Ergonomics, UM-Dearborn, F20, W21, F21
+- IE 490 Computational Human Factors, Purdue University, Spring 2020
+- IE 690 Sensing Approaches For Human Factors Research, Purdue University, Spring 2018
+- IOE 836 Seminar in Human Performance, University of Michigan, Ann Arbor, F16, F17
+- IE 486 Work Analysis and Design II, Purdue University, Spring 2017
+- IE 590 Human Factors and Medical Devices, Purdue University, Spring 2017
+- IE 386 Work Analysis and Design I, Purdue University, Spring 2016, Fall 2016
+
+### Workshops & tutorials
+
+- "Python as an engineering tool", a 5-day short course for UM-Dearborn [ESIEA](https://www.esiea.fr/en/) international program, 2023, 2024, 2025
+- UM Software Carpentry Python Workshop, [March 2024](https://umcarpentries.org/2024-03-21-UMich-python/)
+- "Data analysis in Python", [Big Data Summer Institute](https://sph.umich.edu/bdsi/), 2021 ([recordings](http://bigdatasummerinst.sph.umich.edu/wiki/index.php/Main_Page#Week_2)), 2022 ([recordings](http://bigdatasummerinst.sph.umich.edu/wiki2022/index.php/Main_Page#Week_2)), 2023 ([recordings](https://umich.instructure.com/courses/640918/pages/week-2)), 2024 ([recordings](https://sph.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e03bf1af-3b2f-4bd5-aa27-b19a011c16d3)), 2025
+- "Introduction to git & GitHub", [UM Software Carpentry Workshop](https://umcarpentries.org/2023-03-28-UMich/), 2023
+- "Introduction to data visualization on the web with D3.js", [MIDAS Annual Symposium](https://midas.umich.edu/2021-symposium/), 2021
+- "Introduction to data analysis in Python", [MI-LSAMP NxtGen STEM Scholars Program](https://www.milsamp.org/programs/nxtgen-stem-scholars/) (for underrepresented minority incoming freshmen), 2021
+- "Machine learning pipelines and automated hyperparameter tuning", Ford Motor Company Themed Learning Series, 2021
+- "Introduction to machine learning in Python with scikit-learn", Dearborn Artificial Intelligence Symposium, 2020 ([recording](https://www.youtube.com/watch?v=TD4wCHNhZcU))
+- "Introduction to Python for Community and K-12 Teachers & Students", [MIDAS Annual Symposium](https://midas.umich.edu/2020-symposium/), 2020 ([recording](https://youtu.be/r_sfBJIDMtM))
+- "Introduction to Data Analysis in Python", IMSE Department Workshop, 2020 ([recording](https://youtu.be/7IsFmtvBOyc))
+
+### Teaching certificates
+
+- Certified Carpentries Instructor, [The Carpentries](https://carpentries.org/), 2023
