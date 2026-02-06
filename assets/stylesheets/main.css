@@ -1,0 +1,21 @@
+#profile-img img{
+    width: 100%;
+	border-radius:50%;
+}
+
+#homepage-top-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#homepage-container {
+    position: relative;
+    width: 80%;
+    top: -20px;
+    margin: 0 auto;
+}
+
+.navbar .dropdown-menu a {
+  padding-right: 10px !important; /* Adjust value as needed */
+}

@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>index – Fred Feng</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-0ad878ed76a6099d61ea95889114d868.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-250839b6eee27e96ff0ef4e98519435a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../assets/stylesheets/main.css">
+</head>
+
+<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Fred Feng</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../bio.html"> 
+<span class="menu-text">Biography</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../cv/index.html" aria-current="page"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://github.com/frfeng" rel="noopener noreferrer" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub" target="_blank"><i class="bi bi-github"></i></a>
+    <a href="https://www.youtube.com/@drfredfeng" rel="noopener noreferrer" title="YouTube" class="quarto-navigation-tool px-1" aria-label="YouTube" target="_blank"><i class="bi bi-youtube"></i></a>
+    <a href="https://bsky.app/profile/fredfeng.bsky.social" rel="noopener noreferrer" title="Bluesky" class="quarto-navigation-tool px-1" aria-label="Bluesky" target="_blank"><i class="bi bi-bluesky"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#fred-feng" id="toc-fred-feng" class="nav-link active" data-scroll-target="#fred-feng">Fred Feng</a></li>
+  <li><a href="#research-areas" id="toc-research-areas" class="nav-link" data-scroll-target="#research-areas">Research areas</a></li>
+  <li><a href="#employment" id="toc-employment" class="nav-link" data-scroll-target="#employment">Employment</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#grants" id="toc-grants" class="nav-link" data-scroll-target="#grants">Grants</a>
+  <ul class="collapse">
+  <li><a href="#external-grants" id="toc-external-grants" class="nav-link" data-scroll-target="#external-grants">External grants</a></li>
+  <li><a href="#internal-grants" id="toc-internal-grants" class="nav-link" data-scroll-target="#internal-grants">Internal grants</a></li>
+  </ul></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
+  <ul class="collapse">
+  <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link" data-scroll-target="#journal-articles">Journal articles</a></li>
+  <li><a href="#conference-proceedings" id="toc-conference-proceedings" class="nav-link" data-scroll-target="#conference-proceedings">Conference proceedings</a></li>
+  <li><a href="#book-chapters" id="toc-book-chapters" class="nav-link" data-scroll-target="#book-chapters">Book chapters</a></li>
+  <li><a href="#technical-reports" id="toc-technical-reports" class="nav-link" data-scroll-target="#technical-reports">Technical reports</a></li>
+  <li><a href="#granted-patents" id="toc-granted-patents" class="nav-link" data-scroll-target="#granted-patents">Granted patents</a></li>
+  </ul></li>
+  <li><a href="#open-source-software" id="toc-open-source-software" class="nav-link" data-scroll-target="#open-source-software">Open-source software</a></li>
+  <li><a href="#presentations" id="toc-presentations" class="nav-link" data-scroll-target="#presentations">Presentations</a></li>
+  <li><a href="#press" id="toc-press" class="nav-link" data-scroll-target="#press">Press</a></li>
+  <li><a href="#teaching" id="toc-teaching" class="nav-link" data-scroll-target="#teaching">Teaching</a>
+  <ul class="collapse">
+  <li><a href="#guest-lecturer" id="toc-guest-lecturer" class="nav-link" data-scroll-target="#guest-lecturer">Guest lecturer</a></li>
+  <li><a href="#workshops-tutorials" id="toc-workshops-tutorials" class="nav-link" data-scroll-target="#workshops-tutorials">Workshops &amp; tutorials</a></li>
+  <li><a href="#teaching-certificates" id="toc-teaching-certificates" class="nav-link" data-scroll-target="#teaching-certificates">Teaching certificates</a></li>
+  </ul></li>
+  <li><a href="#students" id="toc-students" class="nav-link" data-scroll-target="#students">Students</a>
+  <ul class="collapse">
+  <li><a href="#ph.d.-students" id="toc-ph.d.-students" class="nav-link" data-scroll-target="#ph.d.-students">Ph.D.&nbsp;students</a></li>
+  <li><a href="#ph.d.-committees" id="toc-ph.d.-committees" class="nav-link" data-scroll-target="#ph.d.-committees">Ph.D.&nbsp;committees</a></li>
+  <li><a href="#masters-students" id="toc-masters-students" class="nav-link" data-scroll-target="#masters-students">Master’s students</a></li>
+  <li><a href="#undergraduate-students" id="toc-undergraduate-students" class="nav-link" data-scroll-target="#undergraduate-students">Undergraduate students</a></li>
+  </ul></li>
+  <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">Awards</a></li>
+  <li><a href="#affiliations" id="toc-affiliations" class="nav-link" data-scroll-target="#affiliations">Affiliations</a></li>
+  <li><a href="#services" id="toc-services" class="nav-link" data-scroll-target="#services">Services</a>
+  <ul class="collapse">
+  <li><a href="#professional-services" id="toc-professional-services" class="nav-link" data-scroll-target="#professional-services">Professional services</a></li>
+  <li><a href="#departmental-services" id="toc-departmental-services" class="nav-link" data-scroll-target="#departmental-services">Departmental services</a></li>
+  <li><a href="#college-services" id="toc-college-services" class="nav-link" data-scroll-target="#college-services">College services</a></li>
+  <li><a href="#university-services" id="toc-university-services" class="nav-link" data-scroll-target="#university-services">University services</a></li>
+  <li><a href="#local-community-services" id="toc-local-community-services" class="nav-link" data-scroll-target="#local-community-services">Local community services</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="cv-fredfeng.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+
+<section id="fred-feng" class="level2">
+<h2 class="anchored" data-anchor-id="fred-feng">Fred Feng</h2>
+<ul>
+<li>University of Michigan-Dearborn</li>
+<li>Industrial and Manufacturing Systems Engineering</li>
+<li>4901 Evergreen Rd, Dearborn, MI 48128, USA</li>
+<li>Email: <a href="mailto:fredfeng@umich.edu" class="email">fredfeng@umich.edu</a></li>
+<li>Research group website: <a href="https://fenggroup.org" class="uri">https://fenggroup.org</a></li>
+<li>Research GitHub: <a href="https://github.com/fenggroup" class="uri">https://github.com/fenggroup</a></li>
+</ul>
+</section>
+<section id="research-areas" class="level2">
+<h2 class="anchored" data-anchor-id="research-areas">Research areas</h2>
+<ul>
+<li>Advancing safe, sustainable, and just systems for cities and communities through data-driven insights</li>
+<li>To this end, we use a variety of research methods including data analytics, applied statistics, causal inference, machine learning, human factors, and computational modeling and simulation.</li>
+</ul>
+</section>
+<section id="employment" class="level2">
+<h2 class="anchored" data-anchor-id="employment">Employment</h2>
+<ul>
+<li><a href="https://umdearborn.edu/">University of Michigan-Dearborn</a>, <a href="https://umdearborn.edu/cecs/departments/industrial-and-manufacturing-systems-engineering">Industrial and Manufacturing Systems Engineering</a>
+<ul>
+<li>Associate Professor, 2024-present</li>
+<li>Assistant Professor, 2018-2024</li>
+</ul></li>
+<li><a href="http://www.umtri.umich.edu/">University of Michigan Transportation Research Institute (UMTRI)</a>
+<ul>
+<li>Postdoctoral Fellow, 2015-2018, Advisor: <a href="https://umdearborn.edu/people-um-dearborn/shan-bao">Shan Bao</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<ul>
+<li>Ph.D., <a href="https://ioe.engin.umich.edu/">Industrial and Operations Engineering</a>, 2015
+<ul>
+<li><a href="https://umich.edu/">University of Michigan, Ann Arbor</a></li>
+<li>Dissertation: <a href="https://deepblue.lib.umich.edu/handle/2027.42/113590">“Queuing network modeling of human multitask performance and its application to usability testing of in-vehicle infotainment systems”</a>, Advisor: <a href="https://websites.umich.edu/~yililiu/">Yili Liu</a></li>
+</ul></li>
+<li>M.S., Mechanical Engineering, 2009
+<ul>
+<li><a href="https://www.tsinghua.edu.cn/en/index.htm">Tsinghua University</a>, China</li>
+<li>Thesis: “Driver drowsiness detection based on multi-sensor data fusion”, Advisor: <a href="https://ieeexplore.ieee.org/author/37577309100">Bo Cheng</a></li>
+</ul></li>
+<li>B.E., Automotive Engineering, 2006
+<ul>
+<li><a href="https://www.tsinghua.edu.cn/en/index.htm">Tsinghua University</a>, China</li>
+</ul></li>
+</ul>
+</section>
+<section id="grants" class="level2">
+<h2 class="anchored" data-anchor-id="grants">Grants</h2>
+<section id="external-grants" class="level3">
+<h3 class="anchored" data-anchor-id="external-grants">External grants</h3>
+<ol type="1">
+<li>“<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2142757">CAREER: Improving bicycling safety by developing a research framework for studying driver-bicyclist interactions</a>” National Science Foundation (NSF) Faculty Early Career Development (CAREER) Award ($549,037), 5 years (2022-2027), PI: Fred Feng</li>
+<li>“A data-driven approach on examining vulnerable road user safety: from real-world corner cases to virtual simulation” Sponsor: <a href="https://amrd.toyota.com/division/csrc/">Toyota Collaborative Safety Research Center</a>, 18 months(2022-2023), PI: Shan Bao, Co-PI: Fred Feng</li>
+<li>“Online driver model development to support shift schedule optimization and powertrain system improvements" Sponsor: Ford Motor Company, 2 years (2021-2023), PI: Fred Feng</li>
+<li>“Research on the trending of micromobility: patterns and issues” Sponsor: <a href="https://mcity.umich.edu/">Mcity</a> tailored project from Honda Motor Company, 9 months (2021-2022), PI: Shan Bao, Co-PI: Fred Feng</li>
+<li>“A continued naturalistic bicycling study in Ann Arbor and bicycle corner case simulation in CARLA” Sponsor: <a href="https://www.tri.global/">Toyota Research Institute</a>, 2 years (2019-2020), PI: Fred Feng</li>
+<li>“Developing bicycle-related corner case scenarios and a bicyclist model for testing self-driving cars using naturalistic driving data and crash data” Sponsor: <a href="https://www.tri.global/">Toyota Research Institute</a>, 7 months (2018-2019), Subaward, PI: Fred Feng</li>
+<li>“A naturalistic bicycling study in the Ann Arbor area” Sponsor: <a href="https://www.tri.global/">Toyota Research Institute</a>, 4 months (2018), Subaward, PI: Fred Feng</li>
+</ol>
+</section>
+<section id="internal-grants" class="level3">
+<h3 class="anchored" data-anchor-id="internal-grants">Internal grants</h3>
+<ol type="1">
+<li>“Developing an open-source and scalable platform for analyzing and publishing bike traffic data: a community-engaged approach to sustainable transportation planning and benchmarking” Research Initiation &amp; Development Grant ($24,984), 2022-2023, PI: Fred Feng</li>
+<li>“The e-bike boom: Examining key safety factors on e-bike potential to promote sustainability and equity in Detroit” UM-Dearborn–UM-Flint Collaborative Research Grants, ($39,970), 2022-2023, Co-PI: Fred Feng</li>
+<li>“Measuring bicycle traffic volume using pneumatic bicycle counter” Summer Undergraduate Research Experience (SURE) Program ($3,200), 2022, PI: Fred Feng (<a href="https://umdearborn.edu/academics/undergraduate-studies/undergraduate-research/sure-program">The student mentee Christopher Salisbury won the 2nd place poster award.</a>)</li>
+<li>“Collection and analysis of traffic data to examine the effectiveness of the Dearborn Healthy Streets program” Office of Metropolitan Impact (OMI) Community-Based Research Seed Grants ($8,180), 2021, PI: Fred Feng</li>
+<li>“Center for Community Health and Equity Research” Research Planning Grants for Catalyzing Faculty Research Innovation and Collaboration ($9,968), 2020, Co-PI: Fred Feng</li>
+<li>“A Browser-based Tool for Interactive Visualizations of Probability Distributions” Open Educational Resources (OER) Supplemental Materials Grant ($500), 2020, PI: Fred Feng</li>
+</ol>
+</section>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<section id="journal-articles" class="level3">
+<h3 class="anchored" data-anchor-id="journal-articles">Journal articles</h3>
+<div id="refs-journals" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-zhang2025assessing" class="csl-entry" role="listitem">
+Zhang, Chengxin, Huizhong Guo, Zifei Wang, Fred Feng, Anuj Pradhan, and Shan Bao. 2025. <span>“Assessing the Effectiveness of Driver Training Interventions in Improving Safe Engagement with Vehicle Automation Systems.”</span> <em>Journal of Safety Research</em> 95: 197–210. <a href="https://doi.org/10.1016/j.jsr.2025.10.003">https://doi.org/10.1016/j.jsr.2025.10.003</a>.
+</div>
+<div id="ref-ammar2023identifying" class="csl-entry" role="listitem">
+Ammar, Dania, Aditi Misra, Fred Feng, and Shan Bao. 2023. <span>“Identifying Factors Related to Crash Injury Levels Involving Bicyclists at Different Locations Through Crash Data Analysis.”</span> <em>Transportation Research Record</em>, ahead of print. <a href="https://doi.org/10.1177/03611981221148486">https://doi.org/10.1177/03611981221148486</a>.
+</div>
+<div id="ref-avetisyan2022design" class="csl-entry" role="listitem">
+Avetisyan, Lilit, Chengxin Zhang, Sue Bai, et al. 2022. <span>“Design a Sustainable Micro-Mobility Future: Trends and Challenges in the US and EU.”</span> <em>Journal of Engineering Design</em> 33 (8-9): 587–606. <a href="https://doi.org/10.1080/09544828.2022.2142904">https://doi.org/10.1080/09544828.2022.2142904</a>.
+</div>
+<div id="ref-sun2021online" class="csl-entry" role="listitem">
+Sun, Wenbo, Matthew Aguirre, Jionghua Judy Jin, et al. 2021. <span>“Online Distraction Detection for Naturalistic Driving Dataset Using Kinematic Motion Models and a Multiple Model Algorithm.”</span> <em>Transportation Research Part C: Emerging Technologies</em> 130 (103317). <a href="https://doi.org/10.1016/j.trc.2021.103317">https://doi.org/10.1016/j.trc.2021.103317</a>.
+</div>
+<div id="ref-yu2019examination" class="csl-entry" role="listitem">
+Yu, Bo, Shan Bao, Fred Feng, and James Sayer. 2019. <span>“Examination and Prediction of Drivers’ Reaction When Provided with V2I Communication-Based Intersection Maneuver Strategies.”</span> <em>Transportation Research Part C: Emerging Technologies</em> 106: 17–28. <a href="https://doi.org/10.1016/j.trc.2019.07.007">https://doi.org/10.1016/j.trc.2019.07.007</a>.
+</div>
+<div id="ref-feng2018drivers" class="csl-entry" role="listitem">
+Feng, Fred, Shan Bao, Robert C Hampshire, and Michael Delp. 2018. <span>“Drivers Overtaking Bicyclists-an Examination Using Naturalistic Driving Data.”</span> <em>Accident Analysis &amp; Prevention</em> 115: 98–109. <a href="https://doi.org/10.1016/j.aap.2018.03.010">https://doi.org/10.1016/j.aap.2018.03.010</a>.
+</div>
+<div id="ref-feng2018estimation" class="csl-entry" role="listitem">
+Feng, Fred, Shan Bao, Judy Jin, et al. 2018. <span>“Estimation of Lead Vehicle Kinematics Using Camera-Based Data for Driver Distraction Detection.”</span> <em>International Journal of Automotive Engineering</em> 9 (3): 158–64. <a href="https://doi.org/10.20485/jsaeijae.9.3_158">https://doi.org/10.20485/jsaeijae.9.3_158</a>.
+</div>
+<div id="ref-feng2018effects" class="csl-entry" role="listitem">
+Feng, Fred, Yili Liu, and Yifan Chen. 2018. <span>“Effects of Quantity and Size of Buttons of in-Vehicle Touch Screen on Drivers’ Eye Glance Behavior.”</span> <em>International Journal of Human–Computer Interaction</em> 34 (12): 1105–18. <a href="https://doi.org/10.1080/10447318.2017.1415688">https://doi.org/10.1080/10447318.2017.1415688</a>.
+</div>
+<div id="ref-feng2017can" class="csl-entry" role="listitem">
+Feng, Fred, Shan Bao, James R Sayer, Carol Flannagan, Michael Manser, and Robert Wunderlich. 2017. <span>“Can Vehicle Longitudinal Jerk Be Used to Identify Aggressive Drivers? An Examination Using Naturalistic Driving Data.”</span> <em>Accident Analysis &amp; Prevention</em> 104: 125–36. <a href="https://doi.org/10.1016/j.aap.2017.04.012">https://doi.org/10.1016/j.aap.2017.04.012</a>.
+</div>
+<div id="ref-feng2017computer" class="csl-entry" role="listitem">
+Feng, Fred, Yili Liu, and Yifan Chen. 2017. <span>“A Computer-Aided Usability Testing Tool for in-Vehicle Infotainment Systems.”</span> <em>Computers &amp; Industrial Engineering</em> 109: 313–24. <a href="https://doi.org/10.1016/j.cie.2017.05.019">https://doi.org/10.1016/j.cie.2017.05.019</a>.
+</div>
+<div id="ref-cheng2012driver" class="csl-entry" role="listitem">
+Cheng, Bo, Wei Zhang, Yingzi Lin, Ruijia Feng, and Xibo Zhang. 2012. <span>“Driver Drowsiness Detection Based on Multisource Information.”</span> <em>Human Factors and Ergonomics in Manufacturing &amp; Service Industries</em> 22 (5): 450–67. <a href="https://doi.org/10.1002/hfm.20395">https://doi.org/10.1002/hfm.20395</a>.
+</div>
+</div>
+</section>
+<section id="conference-proceedings" class="level3">
+<h3 class="anchored" data-anchor-id="conference-proceedings">Conference proceedings</h3>
+<div id="refs-conferences" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-moustafa2026lidarbike" class="csl-entry" role="listitem">
+Moustafa, Rayane, Gandhimathi Padmanaban, and Fred Feng. 2026. <span>“Quantifying Drivers Overtaking Bicyclists with Surrogate Safety Measures Derived from High-Resolution Digital Lidar.”</span> <em>Transportation Research Board 105th Annual Meeting</em>.
+</div>
+<div id="ref-padmanaban2026geometry" class="csl-entry" role="listitem">
+Padmanaban, Gandhimathi, Rayane Moustafa, and Fred Feng. 2026. <span>“A Geometry-Informed Computer Vision Method for Detecting and Examining Overtaking Vehicles from a Bicycle.”</span> <em>Transportation Research Board 105th Annual Meeting</em>.
+</div>
+<div id="ref-padmanaban2025comparative" class="csl-entry" role="listitem">
+Padmanaban, Gandhimathi, Fred Feng, Edward Dai, Ankit Saini, Guopeng Hu, and Yanan Zhao. 2025. <span>“A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles.”</span> <em>SAE Technical Paper</em>.
+</div>
+<div id="ref-aditya2023systematic" class="csl-entry" role="listitem">
+Deshmukh, Aditya, Zifei Wang, Huizhong Guo, et al. 2023. <span>“A Systematic Review of Challenging Scenarios Involving Automated Vehicles and Vulnerable Road Users.”</span> <em>Human Factors and Ergonomics Society Annual Meeting</em>.
+</div>
+<div id="ref-feng2023development" class="csl-entry" role="listitem">
+Feng, Fred. 2023. <span>“Development of a Research Bicycle with High-Resolution Lidar Sensor for Studying Driver-Cyclist Interactions.”</span> <em>International Cycling Safety Conference</em> (The Hague, the Netherlands).
+</div>
+<div id="ref-munnamgi2022automatic" class="csl-entry" role="listitem">
+Munnamgi, H. Vasanth, and Fred Feng. 2022. <span>“An Automatic Method to Extract Events of Drivers Overtaking Cyclists from Trajectory Data Captured by Drones.”</span> <em>International Cycling Safety Conference</em> (Dresden, Germany).
+</div>
+<div id="ref-feng2021cyclingsim" class="csl-entry" role="listitem">
+Feng, Fred, and Ayah Hamad. 2021. <span>“Development of a High Fidelity Virtual Reality Cycling Simulator for Road Safety Education and Research.”</span> <em>Transportation Research Board 100th Annual Meeting</em>.
+</div>
+<div id="ref-feng2020naturalistic" class="csl-entry" role="listitem">
+Feng, Fred, Shan Bao, Colleen Hillard, Mark Gilbert, and Jacopo Serafin. 2020. <span>“A Naturalistic Cycling Study in Ann Arbor.”</span> <em>Transportation Research Board 99th Annual Meeting</em>.
+</div>
+<div id="ref-bao2019examination" class="csl-entry" role="listitem">
+Bao, Shan, Fred Feng, Anuj Pradhan, Yu Zhang, Bochen Jia, and John Sullivan. 2019. <span>“Examination of the Effectiveness of Multiple Training Methods on Supporting Drivers’ Better Understanding Towards Level 2 Automated Vehicle Systems.”</span> <em>Transportation Research Board 98th Annual Meeting</em>.
+</div>
+<div id="ref-yu2019drivers" class="csl-entry" role="listitem">
+Yu, Bo, Shan Bao, Fred Feng, and James Sayer. 2019. <span>“Drivers’ Reaction Analysis and Prediction with V2I-Communication-Based Energy-Related Strategies.”</span> <em>Transportation Research Board 98th Annual Meeting</em>.
+</div>
+<div id="ref-feng2018vehicle" class="csl-entry" role="listitem">
+Feng, Fred, Shan Bao, and Michael Delp. 2018. <span>“Vehicle Lane Encroachment When Drivers Overtaking Bicyclists-an Examination Using Naturalistic Driving Data.”</span> <em>Transportation Research Board 97th Annual Meeting</em>.
+</div>
+<div id="ref-jeong2017computational" class="csl-entry" role="listitem">
+Jeong, Heejin, Fred Feng, and Yili Liu. 2017. <span>“Computational Modeling of Driver Lateral Control on Curved Roads with Integration of Vehicle Dynamics and Reference Trajectory Tracking.”</span> <em>9th International Driving Symposium on Human Factors in Driver Assessment, Training and Vehicle Design</em>. <a href="https://doi.org/10.17077/drivingassessment.1635">https://doi.org/10.17077/drivingassessment.1635</a>.
+</div>
+<div id="ref-chen2016development" class="csl-entry" role="listitem">
+Chen, Yifan, Basavaraj Tonshal, James Rankin, and Fred Feng. 2016. <span>“Development of an Integrated Simulation System for Design of Speech-Centric Multimodal Human-Machine Interfaces in an Automotive Cockpit Environment.”</span> <em>ASME 2016 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference</em>. <a href="https://doi.org/10.1115/DETC2016-59309">https://doi.org/10.1115/DETC2016-59309</a>.
+</div>
+<div id="ref-feng2016spectral" class="csl-entry" role="listitem">
+Feng, Fred, Shan Bao, James Sayer, and David LeBlanc. 2016. <span>“Spectral Power Analysis of Drivers’ Gas Pedal Control During Steady-State Car-Following on Freeways.”</span> <em>Proceedings of the Human Factors and Ergonomics Society Annual Meeting</em> 60: 729–33. <a href="https://doi.org/10.1177/1541931213601167">https://doi.org/10.1177/1541931213601167</a>.
+</div>
+<div id="ref-feng2014computer" class="csl-entry" role="listitem">
+Feng, Fred, Yili Liu, Yifan Chen, Dimitar Filev, and Curtis To. 2014. <span>“Computer-Aided Usability Evaluation of in-Vehicle Infotainment Systems.”</span> <em>Proceedings of the Human Factors and Ergonomics Society Annual Meeting</em> 58: 2285–89. <a href="https://doi.org/10.1177/1541931214581476">https://doi.org/10.1177/1541931214581476</a>.
+</div>
+<div id="ref-feng2013computational" class="csl-entry" role="listitem">
+Feng, Fred, and Yili Liu. 2013. <span>“Computational Modeling of Feature and Conjunction Visual Search Tasks Using Queuing Network-Model Human Processor (QN-MHP).”</span> <em>2nd International Digital Human Modeling Symposium Proceedings</em>.
+</div>
+<div id="ref-feng2009board" class="csl-entry" role="listitem">
+Feng, Ruijia, Guangyuan Zhang, and Bo Cheng. 2009. <span>“An on-Board System for Detecting Driver Drowsiness Based on Multi-Sensor Data Fusion Using Dempster-Shafer Theory.”</span> <em>2009 International Conference on Networking, Sensing and Control</em>, 897–902. <a href="https://doi.org/10.1109/ICNSC.2009.4919399">https://doi.org/10.1109/ICNSC.2009.4919399</a>.
+</div>
+<div id="ref-lin2008analysis" class="csl-entry" role="listitem">
+Lin, Qingfeng, Ruijia Feng, Bo Cheng, Junke Lai, Hong Zhang, and Bingsong Mei. 2008. <span>“Analysis of Causes of Rear-End Conflicts Using Naturalistic Driving Data Collected by Video Drive Recorders.”</span> <em>SAE Technical Paper</em>. <a href="https://doi.org/10.4271/2008-01-0522">https://doi.org/10.4271/2008-01-0522</a>.
+</div>
+<div id="ref-zhang2008b" class="csl-entry" role="listitem">
+Zhang, Guangyuan, Bo Cheng, Ruijia Feng, and Jiawen Li. 2008. <span>“Real-Time Driver Eye Detection Method Using Support Vector Machine with Hu Invariant Moments.”</span> <em>2008 International Conference on Machine Learning and Cybernetics</em> 5: 2999–3004. <a href="https://doi.org/10.1109/ICMLC.2008.4620921">https://doi.org/10.1109/ICMLC.2008.4620921</a>.
+</div>
+<div id="ref-zhang2008a" class="csl-entry" role="listitem">
+Zhang, Guangyuan, Bo Cheng, Ruijia Feng, and Xibo Zhang. 2008. <span>“A Real-Time Adaptive Learning Method for Driver Eye Detection.”</span> <em>2008 Digital Image Computing: Techniques and Applications</em>, 300–304. <a href="https://doi.org/10.1109/DICTA.2008.43">https://doi.org/10.1109/DICTA.2008.43</a>.
+</div>
+</div>
+</section>
+<section id="book-chapters" class="level3">
+<h3 class="anchored" data-anchor-id="book-chapters">Book chapters</h3>
+<div id="refs-books" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-owens2019automated" class="csl-entry" role="listitem">
+Owens, Justin M, Laura Sandt, Azra Habibovic, et al. 2019. <span>“Automated Vehicles and Vulnerable Road Users: Envisioning a Healthy, Safe and Equitable Future.”</span> <em>Automated Vehicles Symposium 6</em>, 61–71. <a href="https://doi.org/10.1007/978-3-030-22933-7">https://doi.org/10.1007/978-3-030-22933-7</a>.
+</div>
+<div id="ref-pradhan2019training" class="csl-entry" role="listitem">
+Pradhan, Anuj K, John Sullivan, Chris Schwarz, Fred Feng, and Shan Bao. 2018. <span>“Training and Education: Human Factors Considerations for Automated Driving Systems.”</span> <em>Road Vehicle Automation 5</em>, 77–84. <a href="https://doi.org/10.1007/978-3-319-94896-6">https://doi.org/10.1007/978-3-319-94896-6</a>.
+</div>
+</div>
+</section>
+<section id="technical-reports" class="level3">
+<h3 class="anchored" data-anchor-id="technical-reports">Technical reports</h3>
+<div id="refs-tech-reports" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-feng2013speech" class="csl-entry" role="listitem">
+Feng, Ruijia, Basavaraj Tonshal, James Rankin, and Yifan Chen. 2013. <span>“Speech Centric Multi-Contour Seat Multimodal Interaction Study.”</span> <em>Ford Research and Advanced Engineering Technical Report</em>.
+</div>
+<div id="ref-chen2012survey" class="csl-entry" role="listitem">
+Chen, Yifan, Ruijia Feng, Basavaraj Tonshal, et al. 2012. <span>“A Survey of the Emotive Driver Advisory System (EDAS) Help Function Concept.”</span> <em>Ford Research and Advanced Engineering Technical Report</em>.
+</div>
+</div>
+</section>
+<section id="granted-patents" class="level3">
+<h3 class="anchored" data-anchor-id="granted-patents">Granted patents</h3>
+<div id="refs-patents" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-sarvestani2019systems" class="csl-entry" role="listitem">
+Tahmasbi-Sarvestani, Amin, Shan Bao, Fred Feng, Judy Jin, and Wenbo Sun. 2023. Systems and methods for distracted driving detection. Patent US11565693B2, issued 2023.
+</div>
+<div id="ref-delp2020system" class="csl-entry" role="listitem">
+Delp, Michael, Ruijia Feng, and Shan Bao. 2020. System, method, and computer-readable medium for autonomous vehicle response to bicycles at intersections. Patent US10788834B2, issued 2020.
+</div>
+</div>
+</section>
+</section>
+<section id="open-source-software" class="level2">
+<h2 class="anchored" data-anchor-id="open-source-software">Open-source software</h2>
+<ol type="1">
+<li>Interactive visualization of probability distributions (<a href="https://probstats.org/">Website</a>, <a href="https://github.com/probstats/probstats.github.io">GitHub repo</a>)</li>
+<li>Web-based interactive dashboards for bicycle counter data
+<ul>
+<li>Dashboard based on Python &amp; Plotly (<a href="https://bikecounter.org/">Website</a>, <a href="https://github.com/fenggroup/bike-traffic-plotly-dash">GitHub repo</a>)</li>
+<li>Dashboard based on JavaScript &amp; D3.js (<a href="https://github.com/fenggroup/bike-counter-d3">GitHub repo</a>)</li>
+</ul></li>
+<li>Web-based point cloud visualization for active transportation (<a href="https://fenggroup.org/pointcloud/examples/bike-2.html">Website</a>, <a href="https://github.com/fenggroup/pointcloud">GitHub repo</a>)</li>
+</ol>
+</section>
+<section id="presentations" class="level2">
+<h2 class="anchored" data-anchor-id="presentations">Presentations</h2>
+<ol type="1">
+<li>“Who Injured Whom-Counterparties in Road Traffic Crashes, Vehicle Bloat, and Crash Regardfulness”, Next Generation Transportation Systems Seminar Series, University of Michigan, Ann Arbor, Civil and Environmental Engineering, March 2025</li>
+<li>“Cycling safety: From crash data analysis to a naturalistic cycling study”, <a href="https://ccat.umtri.umich.edu/">Center for Connected and Automated Transportation (CCAT)</a> Research Review, October 2021 (<a href="https://www.youtube.com/watch?v=bbyOCaJ4P7s">recording</a>)</li>
+<li>“A Naturalistic Cycling Study in Ann Arbor, Michigan”, Tran-SET Webinar Series, September 2021 (<a href="https://www.youtube.com/watch?v=89XMKwFIjbk">recording</a>)</li>
+<li>“Sorry Mate I Didn’t See You-Driver distraction and in-vehicle infotainment touch screen user interface design”, General Motors Human Factors/User Experience Seminar, June 2020</li>
+<li>“Bicycling safety in the future of mobility”, Next Generation Transportation Systems Seminar Series, University of Michigan, Ann Arbor, Civil and Environmental Engineering, September 2019</li>
+<li>“Bicycling safety and human-powered mobility in the era of automated driving.” New Faculty Research Seminar Series, University of Michigan-Dearborn, November 2018</li>
+<li>Automated Vehicle Symposium Breakout Session: “AVs &amp; Vulnerable road users: Envisioning a healthy, safe, and equitable future”, July 2018</li>
+<li>Michigan Bicycle Conference: Bicycle Data and Research Workshop, June 2018</li>
+<li>Transportation Research Board Annual Meeting Workshop: “When AV and people meet - planning for the pedestrian/bike/autonomous vehicle interaction”, January 2018</li>
+<li>Michigan Institute for Data Science (MIDAS) Mobile Sensor Meeting, November 2017</li>
+<li>“Here’s the data, now what? Using large-scale naturalistic driving data to study driver behaviors and develop advance safety technologies” Next Generation Transportation Systems Seminar Series, University of Michigan, Ann Arbor, Civil and Environmental Engineering, April 2017</li>
+</ol>
+</section>
+<section id="press" class="level2">
+<h2 class="anchored" data-anchor-id="press">Press</h2>
+<ol type="1">
+<li><a href="https://www.mlive.com/news/ann-arbor/2023/08/ann-arbor-bikeway-clocks-record-high-10000-plus-trips-in-july.html">Ann Arbor bikeway clocks record-high 10,000-plus trips in July</a>, MLive, August 2023</li>
+<li><a href="https://www.mlive.com/news/ann-arbor/2023/03/ann-arbors-new-bikeways-used-by-many-help-grow-bike-ridership.html">“Ann Arbor’s new bikeways used by many, help grow bike ridership”</a>, MLive, March 2023</li>
+<li><a href="https://www.michigandaily.com/news/moving-beyond-gold-level-ann-arbor-cyclists-want-better-biking-infrastructure/">“Moving beyond Gold-Level: Ann Arbor cyclists want better biking infrastructure”</a>, The Michigan Daily, March 2022</li>
+<li><a href="https://umdearborn.edu/news/articles/um-dearborns-fred-feng-lands-nsf-career-award-advance-bicycle-safety-research">“UM-Dearborn’s Fred Feng lands NSF CAREER Award to advance bicycle safety research”</a>, University of Michigan-Dearborn, March 2022</li>
+<li><a href="https://midas.umich.edu/improving-bicycling-safety/">“Improving bicycling safety by developing a research framework for studying driver-bicyclist interactions”</a>, Michigan Institute for Data Science (MIDAS), February 2022</li>
+<li><a href="https://umdearborn.edu/news/articles/where-virtual-reality-taking-us-next">“Where virtual reality is taking us next”</a>, University of Michigan-Dearborn, January 2022</li>
+<li><a href="https://umdearborn.edu/news/articles/bike-safety-research-going-high-res-new-technology">“Bike safety research is going ‘high-res’ with this new technology”</a>, University of Michigan-Dearborn, July 2021</li>
+<li><a href="http://umich.edu/~fredfeng/files/Making-it-safer-to-bike-alongside-autonomous-cars.pdf">“Making it safer to bike alongside autonomous cars”</a>, University of Michigan Business Engagement Center, May 2020</li>
+<li><a href="https://www.forbes.com/sites/carltonreid/2019/04/16/painted-white-lines-are-not-cyclist-protecting-forcefields-agree-experts/">“Painted white lines are not cyclist-protecting forcefields, agree experts”</a>, Forbes, April 2019</li>
+<li><a href="https://www.forbes.com/sites/carltonreid/2018/10/10/unlucky-for-bicyclists-every-13th-passing-motorist-is-looking-elsewhere/">“Unlucky for bicyclists, every 13th passing motorist is looking elsewhere”</a>, Forbes, October 2018</li>
+</ol>
+</section>
+<section id="teaching" class="level2">
+<h2 class="anchored" data-anchor-id="teaching">Teaching</h2>
+<ul>
+<li><strong>IMSE 317 Engineering Probability and Statistics</strong>, W19, F20, W21, F21, W22, F25, W26
+<ul>
+<li>Undergraduate course, University of Michigan-Dearborn</li>
+<li>Course website: <a href="https://imse317.github.io" class="uri">https://imse317.github.io</a></li>
+</ul></li>
+<li><strong>IMSE 440 Applied Statistical Models in Engineering</strong>, W20, W21, W22, W23, W24
+<ul>
+<li>Undergraduate course, University of Michigan-Dearborn</li>
+<li>Course website: <a href="https://imse440.github.io" class="uri">https://imse440.github.io</a></li>
+</ul></li>
+<li><strong>IMSE 586 Big Data Analytics and Visualization</strong>, F18, F19, F20, F21, F22, F23, F25
+<ul>
+<li>Graduate course, University of Michigan-Dearborn</li>
+<li>Course website: <a href="https://imse586.github.io" class="uri">https://imse586.github.io</a></li>
+</ul></li>
+<li><strong>IOE 366 Linear Statistical Models</strong>, F17
+<ul>
+<li>Undergraduate course, University of Michigan, Ann Arbor.</li>
+<li>Co-instructed with Shan Bao</li>
+</ul></li>
+<li><strong>IMSE 577 User Interface Design and Analysis</strong>, W17
+<ul>
+<li>Graduate course, University of Michigan-Dearborn.</li>
+<li>Co-instructed with Shan Bao</li>
+</ul></li>
+<li><strong>IOE 474 Simulation</strong> (Graduate Student Instructor), F10, F11, F12, W11, W12, W13
+<ul>
+<li>Undergraduate course, University of Michigan, Ann Arbor</li>
+<li><em>Highlight</em>: IOE Department 2012 Graduate Student Instructor of the Year Award (anonymously voted by students, one recipient per year)</li>
+</ul></li>
+</ul>
+<section id="guest-lecturer" class="level3">
+<h3 class="anchored" data-anchor-id="guest-lecturer">Guest lecturer</h3>
+<ul>
+<li>IMSE 501 Human Factors &amp; Ergonomics, UM-Dearborn, F20, W21, F21</li>
+<li>IE 490 Computational Human Factors, Purdue University, Spring 2020</li>
+<li>IE 690 Sensing Approaches For Human Factors Research, Purdue University, Spring 2018</li>
+<li>IOE 836 Seminar in Human Performance, University of Michigan, Ann Arbor, F16, F17</li>
+<li>IE 486 Work Analysis and Design II, Purdue University, Spring 2017</li>
+<li>IE 590 Human Factors and Medical Devices, Purdue University, Spring 2017</li>
+<li>IE 386 Work Analysis and Design I, Purdue University, Spring 2016, Fall 2016</li>
+</ul>
+</section>
+<section id="workshops-tutorials" class="level3">
+<h3 class="anchored" data-anchor-id="workshops-tutorials">Workshops &amp; tutorials</h3>
+<ul>
+<li>“Python as an engineering tool”, a 5-day short course for UM-Dearborn <a href="https://www.esiea.fr/en/">ESIEA</a> international program, 2023, 2024, 2025</li>
+<li>UM Software Carpentry Python Workshop, <a href="https://umcarpentries.org/2024-03-21-UMich-python/">March 2024</a></li>
+<li>“Data analysis in Python”, <a href="https://sph.umich.edu/bdsi/">Big Data Summer Institute</a>, 2021 (<a href="http://bigdatasummerinst.sph.umich.edu/wiki/index.php/Main_Page#Week_2">recordings</a>), 2022 (<a href="http://bigdatasummerinst.sph.umich.edu/wiki2022/index.php/Main_Page#Week_2">recordings</a>), 2023 (<a href="https://umich.instructure.com/courses/640918/pages/week-2">recordings</a>), 2024 (<a href="https://sph.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e03bf1af-3b2f-4bd5-aa27-b19a011c16d3">recordings</a>), 2025</li>
+<li>“Introduction to git &amp; GitHub”, <a href="https://umcarpentries.org/2023-03-28-UMich/">UM Software Carpentry Workshop</a>, 2023</li>
+<li>“Introduction to data visualization on the web with D3.js”, <a href="https://midas.umich.edu/2021-symposium/">MIDAS Annual Symposium</a>, 2021</li>
+<li>“Introduction to data analysis in Python”, <a href="https://www.milsamp.org/programs/nxtgen-stem-scholars/">MI-LSAMP NxtGen STEM Scholars Program</a> (for underrepresented minority incoming freshmen), 2021</li>
+<li>“Machine learning pipelines and automated hyperparameter tuning”, Ford Motor Company Themed Learning Series, 2021</li>
+<li>“Introduction to machine learning in Python with scikit-learn”, Dearborn Artificial Intelligence Symposium, 2020 (<a href="https://www.youtube.com/watch?v=TD4wCHNhZcU">recording</a>)</li>
+<li>“Introduction to Python for Community and K-12 Teachers &amp; Students”, <a href="https://midas.umich.edu/2020-symposium/">MIDAS Annual Symposium</a>, 2020 (<a href="https://youtu.be/r_sfBJIDMtM">recording</a>)</li>
+<li>“Introduction to Data Analysis in Python”, IMSE Department Workshop, 2020 (<a href="https://youtu.be/7IsFmtvBOyc">recording</a>)</li>
+</ul>
+</section>
+<section id="teaching-certificates" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-certificates">Teaching certificates</h3>
+<ul>
+<li>Certified Carpentries Instructor, <a href="https://carpentries.org/">The Carpentries</a>, 2023</li>
+</ul>
+</section>
+</section>
+<section id="students" class="level2">
+<h2 class="anchored" data-anchor-id="students">Students</h2>
+<section id="ph.d.-students" class="level3">
+<h3 class="anchored" data-anchor-id="ph.d.-students">Ph.D.&nbsp;students</h3>
+<ul>
+<li>Rayane Moustafa, (2023-present)</li>
+<li>Gandhimathi Padmanaban (2021-present)</li>
+<li>Hanumad Vasanth Munnamgi (2019-present)</li>
+</ul>
+</section>
+<section id="ph.d.-committees" class="level3">
+<h3 class="anchored" data-anchor-id="ph.d.-committees">Ph.D.&nbsp;committees</h3>
+<ul>
+<li>Dr.&nbsp;Zifei Wang, ISE, UM-Dearborn, PhD defense, 2026, Chair: Shan Bao</li>
+<li>Dr.&nbsp;Wael Hassanieh, ISE, UM-Dearborn, PhD defense, 2025, Chair: Abdallah Chehade</li>
+<li>Dr.&nbsp;Isaiah Oyewole, ISE, UM-Dearborn, PhD defense, 2025, Chair: Abdallah Chehade</li>
+<li>Dr.&nbsp;Dania Ammar, ISE, UM-Dearborn, PhD defense, 2024, Chair: Shan Bao</li>
+<li>Dr.&nbsp;Aishwary Pawar, ISE, UM-Dearborn, PhD defense, 2023, Chair: DeLean Tolbert Smith</li>
+<li>Dr.&nbsp;Mayuresh Savargaonkar, ISE, UM-Dearborn, PhD defense, 2023, Chair: Abdallah Chehade</li>
+<li>Dr.&nbsp;Jackie Ayoub, ISE, UM-Dearborn, PhD defense, 2022, Chair: Feng Zhou</li>
+<li>Dr.&nbsp;Zunya Shi, ISE, UM-Dearborn, PhD defense, 2021, Chair: Abdallah Chehade</li>
+<li>Dr.&nbsp;Kassem Moustafa, ISE, UM-Dearborn, PhD defense, 2020, Chair: Zhen Hu</li>
+</ul>
+</section>
+<section id="masters-students" class="level3">
+<h3 class="anchored" data-anchor-id="masters-students">Master’s students</h3>
+<ul>
+<li>Rayane Moustafa, UM-Dearborn, August 2023
+<ul>
+<li>Thesis: “<a href="https://dx.doi.org/10.7302/8118">Using Digital Lidar to Study Cycling Safety and Distance Estimation of Passing Vehicles</a>”</li>
+</ul></li>
+<li>Gandhimathi Padmanaban, UM-Dearborn, August 2021
+<ul>
+<li>Thesis: “<a href="https://dx.doi.org/10.7302/2328">Computational Human Performance Modeling using Queuing Network in an Open-Source Platform</a>”</li>
+</ul></li>
+<li>Ayah Hamad, UM-Dearborn, May 2021
+<ul>
+<li>Thesis: “<a href="https://dx.doi.org/10.7302/1035">Two Wheelistic: Development of a High-Fidelity Virtual Reality Cycling Simulator for Transportation Safety Research</a>”</li>
+</ul></li>
+</ul>
+</section>
+<section id="undergraduate-students" class="level3">
+<h3 class="anchored" data-anchor-id="undergraduate-students">Undergraduate students</h3>
+<ul>
+<li>Victoria De La Rue (2022-present), Christopher Salisbury (2022-2023), Amardeep Dhingra (2022-2023), Daniel Maudlin (2021), Callisto Hillard (2018-2020)</li>
+</ul>
+</section>
+</section>
+<section id="awards" class="level2">
+<h2 class="anchored" data-anchor-id="awards">Awards</h2>
+<ul>
+<li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2142757">National Science Foundation Faculty Early Career Development (CAREER) Award</a>, 2022</li>
+<li><a href="https://scholarships.engin.umich.edu/featured/michael-h-scheller-fund/">Michael H. Scheller Fellowship</a>, 2012-2013, 2014-2015</li>
+<li>University of Michigan IOE Department Graduate Student Instructor of the Year Award, 2012</li>
+<li>University of Michigan IOE Departmental Fellowship, 2009-2011</li>
+<li>Comprehensive Excellence Scholarship for Graduate Student at Tsinghua University, 2007</li>
+<li>Mitsubishi Scholarship for Outstanding Mechanical Engr. Student at Tsinghua University, 2006</li>
+</ul>
+</section>
+<section id="affiliations" class="level2">
+<h2 class="anchored" data-anchor-id="affiliations">Affiliations</h2>
+<ul>
+<li><a href="https://midas.umich.edu/">Michigan Institute for Data &amp; AI in Society (MIDAS)</a></li>
+<li><a href="https://micde.umich.edu/">Michigan Institute for Computational Discovery and Engineering (MICDE)</a></li>
+<li><a href="https://umcarpentries.org/">The Carpentries at the University of Michigan</a></li>
+<li><a href="https://injurycenter.umich.edu/">University of Michigan Injury Prevention Center</a></li>
+<li><a href="https://poverty.umich.edu/">University of Michigan Poverty Solutions</a></li>
+<li><a href="https://umdearborn.edu/cecs/research/centers/dearborn-artificial-intelligence-research-dair-center">Dearborn Artificial Intelligence Research Center</a></li>
+</ul>
+</section>
+<section id="services" class="level2">
+<h2 class="anchored" data-anchor-id="services">Services</h2>
+<section id="professional-services" class="level3">
+<h3 class="anchored" data-anchor-id="professional-services">Professional services</h3>
+<section id="professional-organizations" class="level4">
+<h4 class="anchored" data-anchor-id="professional-organizations">Professional organizations</h4>
+<ul>
+<li>Scientific Committee, <a href="http://www.cyclingsafety.net">International Cycling Safety Conference</a>, 2020-present</li>
+<li>Member, <a href="https://www.trb.org/">Transportation Research Board (TRB)</a> <a href="https://sites.google.com/view/anf20/">Bicycle Transportation Committee</a>, 2023-2025</li>
+<li>Program Committee, <a href="https://www.auto-ui.org/">AutoUI (International ACM Conference on Automotive User Interfaces)</a>, 2018, 2020, 2021, 2022</li>
+</ul>
+</section>
+<section id="reviewer" class="level4">
+<h4 class="anchored" data-anchor-id="reviewer">Reviewer</h4>
+<ul>
+<li>Accident Analysis &amp; Prevention</li>
+<li>Applied Ergonomics</li>
+<li>Human Factors and Ergonomics (HFES) Annual Meeting</li>
+<li>International Journal of Human-Computer Interaction</li>
+<li>IEEE Transactions on Intelligent Transportation Systems</li>
+<li>IEEE Transactions on Human-Machine Systems</li>
+<li>IEEE Intelligent Transportation Systems Magazine</li>
+<li>IEEE Access</li>
+<li>International ACM Conference on Automotive User Interfaces (AutoUI)</li>
+<li>International Cycling Safety Conference</li>
+<li>Transportation Research Part C: Emerging Technologies</li>
+<li>Transportation Research Part F: Traffic Psychology and Behaviour</li>
+<li>Transportmetrica A: Transport Science</li>
+<li>Transportation Research Board (TRB) Annual Meeting</li>
+</ul>
+</section>
+<section id="workshop-organizer" class="level4">
+<h4 class="anchored" data-anchor-id="workshop-organizer">Workshop organizer</h4>
+<ul>
+<li>“Automated vehicles are pretty much here: How can human factors research help prepare drivers, lawmakers, educators, and the public?”, <a href="www.automatedvehiclessymposium.org">Automated Vehicle Symposium</a> 2017</li>
+<li>“Acquisition and maintenance of driving skills in the climate of driver support, driver assist, and automation systems”, <a href="http://www.trb.org/AnnualMeeting/">Transportation Research Board Annual Meeting</a> 2017</li>
+</ul>
+</section>
+<section id="other-services" class="level4">
+<h4 class="anchored" data-anchor-id="other-services">Other services</h4>
+<ul>
+<li><strong>Webmaster</strong>: <a href="http://hfessttg.blogspot.com/">Surface Transportation Technical Group</a>, <a href="https://www.hfes.org/">Human Factors and Ergonomics Society</a>, 2016-2018</li>
+</ul>
+</section>
+</section>
+<section id="departmental-services" class="level3">
+<h3 class="anchored" data-anchor-id="departmental-services">Departmental services</h3>
+<section id="committees" class="level4">
+<h4 class="anchored" data-anchor-id="committees">Committees</h4>
+<ul>
+<li>Member, IMSE Department Research Committee (2024-present)</li>
+<li>Member, IMSE Department Social Media Committee (2019-present)</li>
+<li>Member, IMSE Department PhD Qualifying Exam Committee (2019-present)</li>
+<li>Member, IMSE Department LEO Lecture Major Review Committee (2022)</li>
+</ul>
+</section>
+<section id="other-services-1" class="level4">
+<h4 class="anchored" data-anchor-id="other-services-1">Other services</h4>
+<ul>
+<li>Faculty Secretary, IMSE Department (2019-2023)</li>
+<li>Department Liaison, <a href="https://umdearborn.edu/faculty-staff/hub-teaching-learning-resources">HUB for Teaching and Learning</a> (2021-2021)</li>
+</ul>
+</section>
+</section>
+<section id="college-services" class="level3">
+<h3 class="anchored" data-anchor-id="college-services">College services</h3>
+<section id="committees-1" class="level4">
+<h4 class="anchored" data-anchor-id="committees-1">Committees</h4>
+<ul>
+<li>Member, <a href="https://umdearborn.edu/cecs">CECS</a> <a href="https://umdearborn.edu/cecs/departments/electrical-and-computer-engineering/graduate-programs/mse-energy-systems-engineering">Energy Systems Engineering</a> Program Reform Committee (2021-2022)</li>
+<li>Member, <a href="https://umdearborn.edu/cecs">CECS</a> College Prominence Committee (2022-present)</li>
+<li>Member, <a href="https://umdearborn.edu/cecs">CECS</a> Online Education Strategic Planning Committee (2021-2022)</li>
+<li>Member, <a href="https://umdearborn.edu/cecs">CECS</a> Faculty Research Committee (2020)</li>
+</ul>
+</section>
+<section id="other-services-2" class="level4">
+<h4 class="anchored" data-anchor-id="other-services-2">Other services</h4>
+<ul>
+<li>Digital Ambassador, <a href="https://umdearborn.edu/cecs">CECS</a> (2020-present)</li>
+</ul>
+</section>
+</section>
+<section id="university-services" class="level3">
+<h3 class="anchored" data-anchor-id="university-services">University services</h3>
+<section id="committees-2" class="level4">
+<h4 class="anchored" data-anchor-id="committees-2">Committees</h4>
+<ul>
+<li>Member, UM-Dearborn Urban Futures Strategic Planning Committee (2022)</li>
+<li>Member, UM-Dearborn Housing and Transportation Committee (2023)</li>
+</ul>
+</section>
+<section id="other-services-3" class="level4">
+<h4 class="anchored" data-anchor-id="other-services-3">Other services</h4>
+<ul>
+<li>Faculty Senator, <a href="https://umdearborn.edu/falty-senate">UM-Dearborn Faculty Senate</a>, 2022-2028</li>
+<li>Faculty Senate Council, <a href="https://umdearborn.edu/falty-senate">UM-Dearborn Faculty Senate</a>, 2023-2024</li>
+<li>Volunteer Assistant Coach, <a href="https://www.umcycling.org/">University of Michigan Cycling Team</a> (club sports), 2017-2021</li>
+</ul>
+</section>
+</section>
+<section id="local-community-services" class="level3">
+<h3 class="anchored" data-anchor-id="local-community-services">Local community services</h3>
+<section id="membership" class="level4">
+<h4 class="anchored" data-anchor-id="membership">Membership</h4>
+<ul>
+<li>Board of directors, <a href="https://www.wbwc.org/">Walk Bike Washtenaw</a>, 2020-2024</li>
+<li>Member, <a href="https://www.healthydearborn.org/healthy-environments">Healthy Environments Action Team</a>, <a href="https://www.healthydearborn.org/">Healthy Dearborn Coalition</a>, 2020-2021</li>
+<li>Member, <a href="https://www.healthydearborn.org/dearbornhealthystreets">Dearborn Healthy Streets Project</a> Planning Team, 2021</li>
+</ul>
+</section>
+<section id="invited-talk-panelist" class="level4">
+<h4 class="anchored" data-anchor-id="invited-talk-panelist">Invited talk &amp; panelist</h4>
+<ul>
+<li><a href="https://www.eventbrite.com/e/bike-summit-2023-tickets-575020450647?">Ann Arbor Bike Summit</a>, 2023</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/fenggroup\.org\/fredfeng");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© <span id="current-year"></span> Fred Feng</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Powered by <a href="https://quarto.org" target="_blank">Quarto</a></p>
+</div>
+    <div class="nav-footer-right">
+<p>License: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></p>
+</div>
+  </div>
+</footer>
+<script id="quarto-current-year" type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentYear = new Date().getFullYear();
+    document.getElementById('current-year').textContent = currentYear;
+  });
+</script>
+
+
+
+
+</body></html>
