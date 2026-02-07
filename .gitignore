@@ -5,7 +5,6 @@ _site/
 **/*.quarto_ipynb
 
 # LaTeX intermediate files
-*.tex
 *.aux
 *.log
 *.out

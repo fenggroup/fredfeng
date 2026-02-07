@@ -9,10 +9,10 @@ website:
   search: false
   back-to-top-navigation: true
   navbar:
-    right:
+    left:
       - text: Biography
         href: bio.qmd
-      - text: CV
+      - text: Curriculum Vitae
         href: cv/index.qmd
     tools:
       - icon: github

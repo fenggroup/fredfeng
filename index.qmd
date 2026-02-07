@@ -4,7 +4,7 @@ page-layout: full
 back-to-top-navigation: false
 ---
 
-::: {#homepage-top-container}
+::: {#homepage-container}
 
 :::: {.columns}
 ::: {.column width="16%" #profile-img}
@@ -22,13 +22,9 @@ back-to-top-navigation: false
 :::
 ::::
 
-:::
-
-::: {#homepage-container}
-
 ## Research areas
 - Advancing safe, sustainable, and just systems for cities and communities through data-driven insights
-- Find more details on our [research website](https://fenggroup.org)
+- Find more on our [research website](https://fenggroup.org)
 
 ## Employment
 - [University of Michigan-Dearborn](https://umdearborn.edu/)

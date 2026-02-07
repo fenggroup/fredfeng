@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Fred Feng"
 filters:
   - multibib
 validate-yaml: false
@@ -15,18 +15,28 @@ csl: ../assets/chicago.csl
 format: 
   html: default
   pdf:
-    geometry:
-      - top=1in
-      - bottom=1in
-      - left=1in
-      - right=1in
     output-file: cv-fredfeng.pdf
+    include-in-header: preamble.tex
+    include-before-body: 
+      - text: \vspace{-18ex}
+    # shift-heading-level-by: -1
 
 ---
 
-## Fred Feng
-
 {{< include sections/_01-basic.qmd >}}
+
+<!-- Add a horizontal line in html -->
+::: {.content-visible when-format="html"}
+---
+:::
+
+<!-- Add a horizontal line in pdf -->
+<!-- and adjust the vspace above and below the line -->
+```{=latex}
+\vspace{-2ex}
+\rule{\linewidth}{0.8pt}
+\vspace{-5ex}
+```
 
 {{< include sections/_02-research-areas.qmd >}}
 
