@@ -1,0 +1,4 @@
+## Short bio
+Dr. Fred Feng is an Associate Professor in the Department of Industrial and Manufacturing Systems Engineering at the University of Michigan-Dearborn. 
+Dr. Feng's research focuses on advancing safe, sustainable, and just systems for cities and communities through data-driven insights. 
+More information can be found at Dr. Feng's research group website at [fenggroup.org](https://fenggroup.org).

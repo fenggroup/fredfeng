@@ -11,7 +11,7 @@ website:
   navbar:
     left:
       - text: Biography
-        href: bio.qmd
+        href: bio/index.qmd
       - text: Curriculum Vitae
         href: cv/index.qmd
     tools:

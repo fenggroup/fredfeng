@@ -2,25 +2,33 @@
 title: ""
 page-layout: full
 back-to-top-navigation: false
+shift-heading-level-by: 1
 ---
 
 ::: {#homepage-container}
 
-:::: {.columns}
-::: {.column width="16%" #profile-img}
+:::: {layout="[0.18, 0.01, 0.8]"}
+::: {#profile-img}
 ![](assets/images/fredfeng.jpg){width="100%" fig-align="left"}
 :::
-::: {.column width="2%"}
+::: {}
 :::
-::: {.column width="82%"}
-- Associate Professor
-- [Industrial and Manufacturing Systems Engineering](https://umdearborn.edu/cecs/departments/industrial-and-manufacturing-systems-engineering)
-- [University of Michigan-Dearborn](https://umdearborn.edu/)
-- Email: <fredfeng@umich.edu>
-- Office: 2320 HPEC
-- Address: 4901 Evergreen Rd, Dearborn, MI 48128, USA
+::: {}
+Associate Professor
+
+[Industrial and Manufacturing Systems Engineering](https://umdearborn.edu/cecs/partments/industrial-and-manufacturing-systems-engineering)
+
+[University of Michigan-Dearborn](https://umdearborn.edu/)
+
+Email: <fredfeng@umich.edu>
+
+Office: 2320 HPEC
+
+Address: 4901 Evergreen Rd, Dearborn, MI 48128, USA
 :::
 ::::
+
+---
 
 ## Research areas
 - Advancing safe, sustainable, and just systems for cities and communities through data-driven insights

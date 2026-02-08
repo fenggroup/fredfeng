@@ -1,5 +1,7 @@
 ## Teaching
 
+### Courses
+
 - **IMSE 317 Engineering Probability and Statistics**, W19, F20, W21, F21,
 W22, F25, W26
     - Undergraduate course, University of Michigan-Dearborn

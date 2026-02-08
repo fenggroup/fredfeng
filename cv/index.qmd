@@ -1,5 +1,5 @@
 ---
-title: "Fred Feng"
+title: ""
 filters:
   - multibib
 validate-yaml: false
@@ -19,11 +19,25 @@ format:
     include-in-header: preamble.tex
     include-before-body: 
       - text: \vspace{-18ex}
-    # shift-heading-level-by: -1
-
 ---
 
-{{< include sections/_01-basic.qmd >}}
+:::: {layout="[0.45, 0.55]"}
+::: {#first}
+<!-- Add name in pdf -->
+```{=latex}
+\vspace{-10ex}
+{\Huge\textbf{Fred Feng}}
+```
+<!-- Add name in html -->
+::: {.content-visible when-format="html"}
+<span id="cv-name-title">Fred Feng</span>
+:::
+:::
+
+::: {#second}
+{{< include sections/_01-basic-info.qmd >}}
+:::
+::::
 
 <!-- Add a horizontal line in html -->
 ::: {.content-visible when-format="html"}
@@ -31,9 +45,8 @@ format:
 :::
 
 <!-- Add a horizontal line in pdf -->
-<!-- and adjust the vspace above and below the line -->
 ```{=latex}
-\vspace{-2ex}
+\vspace{-6ex}
 \rule{\linewidth}{0.8pt}
 \vspace{-5ex}
 ```

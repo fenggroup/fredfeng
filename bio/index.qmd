@@ -1,0 +1,12 @@
+---
+title: ""
+toc: false
+back-to-top-navigation: false
+shift-heading-level-by: 1
+---
+
+{{< include bio-versions/_01-mini-bio.qmd >}}
+
+{{< include bio-versions/_02-short-bio.qmd >}}
+
+{{< include bio-versions/_03-mid-length-bio.qmd >}}
