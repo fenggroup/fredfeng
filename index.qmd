@@ -42,7 +42,7 @@ Address: 4901 Evergreen Rd, Dearborn, MI 48128, USA
     - Postdoc (2015-2018)
 
 ## Education
-- Ph.D. in [Industrial and Operations Engineering](https://ioe.engin.umich.edu/), the [University of Michigan](https://umich.edu/), Ann Arbor (2015)
+- Ph.D. in [Industrial and Operations Engineering](https://ioe.engin.umich.edu/), [University of Michigan](https://umich.edu/), Ann Arbor (2015)
 - M.S. in Mechanical Engineering, [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm), China (2009)
 - B.E. in Automotive Engineering, [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm), China (2006)
 
