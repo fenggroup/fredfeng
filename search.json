@@ -4,7 +4,7 @@
     "href": "cv/index.html",
     "title": "Fred Feng",
     "section": "",
-    "text": "University of Michigan-Dearborn\nIndustrial and Manufacturing Systems Engineering\n4901 Evergreen Rd, Dearborn, MI 48128, USA\nEmail: fredfeng@umich.edu\nResearch group website: https://fenggroup.org\nResearch GitHub: https://github.com/fenggroup"
+    "text": "Fred Feng\n\n\nUniversity of Michigan-Dearborn\n\nIndustrial and Manufacturing Systems Engineering\n\n4901 Evergreen Rd, Dearborn, MI 48128, USA\n\nEmail: fredfeng@umich.edu\n\nResearch website: https://fenggroup.org\n\nResearch GitHub: https://github.com/fenggroup"
   },
   {
     "objectID": "cv/index.html#research-areas",
@@ -25,7 +25,7 @@
     "href": "cv/index.html#education",
     "title": "Fred Feng",
     "section": "Education",
-    "text": "Education\n\nPh.D., Industrial and Operations Engineering, 2015\n\nUniversity of Michigan, Ann Arbor\nDissertation: “Queuing network modeling of human multitask performance and its application to usability testing of in-vehicle infotainment systems”, Advisor: Yili Liu\n\nM.S., Mechanical Engineering, 2009\n\nTsinghua University, China\nThesis: “Driver drowsiness detection based on multi-sensor data fusion”, Advisor: Bo Cheng\n\nB.E., Automotive Engineering, 2006\n\nTsinghua University, China"
+    "text": "Education\n\nPh.D., Industrial and Operations Engineering, University of Michigan, Ann Arbor, 2015\n\nDissertation: “Queuing network modeling of human multitask performance and its application to usability testing of in-vehicle infotainment systems”, Advisor: Yili Liu\n\nM.S., Mechanical Engineering, Tsinghua University, China, 2009\n\nThesis: “Driver drowsiness detection based on multi-sensor data fusion”, Advisor: Bo Cheng\n\nB.E., Automotive Engineering, Tsinghua University, China, 2006"
   },
   {
     "objectID": "cv/index.html#grants",
@@ -67,7 +67,7 @@
     "href": "cv/index.html#teaching",
     "title": "Fred Feng",
     "section": "Teaching",
-    "text": "Teaching\n\nIMSE 317 Engineering Probability and Statistics, W19, F20, W21, F21, W22, F25, W26\n\nUndergraduate course, University of Michigan-Dearborn\nCourse website: https://imse317.github.io\n\nIMSE 440 Applied Statistical Models in Engineering, W20, W21, W22, W23, W24\n\nUndergraduate course, University of Michigan-Dearborn\nCourse website: https://imse440.github.io\n\nIMSE 586 Big Data Analytics and Visualization, F18, F19, F20, F21, F22, F23, F25\n\nGraduate course, University of Michigan-Dearborn\nCourse website: https://imse586.github.io\n\nIOE 366 Linear Statistical Models, F17\n\nUndergraduate course, University of Michigan, Ann Arbor.\nCo-instructed with Shan Bao\n\nIMSE 577 User Interface Design and Analysis, W17\n\nGraduate course, University of Michigan-Dearborn.\nCo-instructed with Shan Bao\n\nIOE 474 Simulation (Graduate Student Instructor), F10, F11, F12, W11, W12, W13\n\nUndergraduate course, University of Michigan, Ann Arbor\nHighlight: IOE Department 2012 Graduate Student Instructor of the Year Award (anonymously voted by students, one recipient per year)\n\n\n\nGuest lecturer\n\nIMSE 501 Human Factors & Ergonomics, UM-Dearborn, F20, W21, F21\nIE 490 Computational Human Factors, Purdue University, Spring 2020\nIE 690 Sensing Approaches For Human Factors Research, Purdue University, Spring 2018\nIOE 836 Seminar in Human Performance, University of Michigan, Ann Arbor, F16, F17\nIE 486 Work Analysis and Design II, Purdue University, Spring 2017\nIE 590 Human Factors and Medical Devices, Purdue University, Spring 2017\nIE 386 Work Analysis and Design I, Purdue University, Spring 2016, Fall 2016\n\n\n\nWorkshops & tutorials\n\n“Python as an engineering tool”, a 5-day short course for UM-Dearborn ESIEA international program, 2023, 2024, 2025\nUM Software Carpentry Python Workshop, March 2024\n“Data analysis in Python”, Big Data Summer Institute, 2021 (recordings), 2022 (recordings), 2023 (recordings), 2024 (recordings), 2025\n“Introduction to git & GitHub”, UM Software Carpentry Workshop, 2023\n“Introduction to data visualization on the web with D3.js”, MIDAS Annual Symposium, 2021\n“Introduction to data analysis in Python”, MI-LSAMP NxtGen STEM Scholars Program (for underrepresented minority incoming freshmen), 2021\n“Machine learning pipelines and automated hyperparameter tuning”, Ford Motor Company Themed Learning Series, 2021\n“Introduction to machine learning in Python with scikit-learn”, Dearborn Artificial Intelligence Symposium, 2020 (recording)\n“Introduction to Python for Community and K-12 Teachers & Students”, MIDAS Annual Symposium, 2020 (recording)\n“Introduction to Data Analysis in Python”, IMSE Department Workshop, 2020 (recording)\n\n\n\nTeaching certificates\n\nCertified Carpentries Instructor, The Carpentries, 2023"
+    "text": "Teaching\n\nCourses\n\nIMSE 317 Engineering Probability and Statistics, W19, F20, W21, F21, W22, F25, W26\n\nUndergraduate course, University of Michigan-Dearborn\nCourse website: https://imse317.github.io\n\nIMSE 440 Applied Statistical Models in Engineering, W20, W21, W22, W23, W24\n\nUndergraduate course, University of Michigan-Dearborn\nCourse website: https://imse440.github.io\n\nIMSE 586 Big Data Analytics and Visualization, F18, F19, F20, F21, F22, F23, F25\n\nGraduate course, University of Michigan-Dearborn\nCourse website: https://imse586.github.io\n\nIOE 366 Linear Statistical Models, F17\n\nUndergraduate course, University of Michigan, Ann Arbor.\nCo-instructed with Shan Bao\n\nIMSE 577 User Interface Design and Analysis, W17\n\nGraduate course, University of Michigan-Dearborn.\nCo-instructed with Shan Bao\n\nIOE 474 Simulation (Graduate Student Instructor), F10, F11, F12, W11, W12, W13\n\nUndergraduate course, University of Michigan, Ann Arbor\nHighlight: IOE Department 2012 Graduate Student Instructor of the Year Award (anonymously voted by students, one recipient per year)\n\n\n\n\nGuest lecturer\n\nIMSE 501 Human Factors & Ergonomics, UM-Dearborn, F20, W21, F21\nIE 490 Computational Human Factors, Purdue University, Spring 2020\nIE 690 Sensing Approaches For Human Factors Research, Purdue University, Spring 2018\nIOE 836 Seminar in Human Performance, University of Michigan, Ann Arbor, F16, F17\nIE 486 Work Analysis and Design II, Purdue University, Spring 2017\nIE 590 Human Factors and Medical Devices, Purdue University, Spring 2017\nIE 386 Work Analysis and Design I, Purdue University, Spring 2016, Fall 2016\n\n\n\nWorkshops & tutorials\n\n“Python as an engineering tool”, a 5-day short course for UM-Dearborn ESIEA international program, 2023, 2024, 2025\nUM Software Carpentry Python Workshop, March 2024\n“Data analysis in Python”, Big Data Summer Institute, 2021 (recordings), 2022 (recordings), 2023 (recordings), 2024 (recordings), 2025\n“Introduction to git & GitHub”, UM Software Carpentry Workshop, 2023\n“Introduction to data visualization on the web with D3.js”, MIDAS Annual Symposium, 2021\n“Introduction to data analysis in Python”, MI-LSAMP NxtGen STEM Scholars Program (for underrepresented minority incoming freshmen), 2021\n“Machine learning pipelines and automated hyperparameter tuning”, Ford Motor Company Themed Learning Series, 2021\n“Introduction to machine learning in Python with scikit-learn”, Dearborn Artificial Intelligence Symposium, 2020 (recording)\n“Introduction to Python for Community and K-12 Teachers & Students”, MIDAS Annual Symposium, 2020 (recording)\n“Introduction to Data Analysis in Python”, IMSE Department Workshop, 2020 (recording)\n\n\n\nTeaching certificates\n\nCertified Carpentries Instructor, The Carpentries, 2023"
   },
   {
     "objectID": "cv/index.html#students",
@@ -102,69 +102,13 @@
     "href": "index.html",
     "title": "Fred Feng",
     "section": "",
-    "text": "Associate Professor\nIndustrial and Manufacturing Systems Engineering\nUniversity of Michigan-Dearborn\nEmail: fredfeng@umich.edu\nOffice: 2320 HPEC\nAddress: 4901 Evergreen Rd, Dearborn, MI 48128, USA\n\n\n\n\n\n\nAdvancing safe, sustainable, and just systems for cities and communities through data-driven insights\nFind more on our research website\n\n\n\n\n\nUniversity of Michigan-Dearborn\n\nAssociate Professor (2024-present)\nAssistant Professor (2018-2024)\n\nUniversity of Michigan Transportation Research Institute\n\nPostdoc (2015-2018)\n\n\n\n\n\n\nPh.D. in Industrial and Operations Engineering, the University of Michigan, Ann Arbor (2015)\nM.S. in Mechanical Engineering, Tsinghua University, China (2009)\nB.E. in Automotive Engineering, Tsinghua University, China (2006)\n\n\n\n\n\nIMSE 317 Engineering Probability and Statistics\nIMSE 440 Applied Statistical Models in Engineering\nIMSE 586 Big Data Analytics and Visualization\n\n\n\n\n\nMichigan Institute for Data & AI in Society (MIDAS)\nMichigan Institute for Computational Discovery and Engineering (MICDE)\nThe Carpentries at the University of Michigan\nUniversity of Michigan Injury Prevention Center\nUniversity of Michigan Poverty Solutions\nDearborn Artificial Intelligence Research Center"
+    "text": "Associate Professor\nIndustrial and Manufacturing Systems Engineering\nUniversity of Michigan-Dearborn\nEmail: fredfeng@umich.edu\nOffice: 2320 HPEC\nAddress: 4901 Evergreen Rd, Dearborn, MI 48128, USA\n\n\n\n\n\nResearch areas\n\nAdvancing safe, sustainable, and just systems for cities and communities through data-driven insights\nFind more on our research website\n\n\n\nEmployment\n\nUniversity of Michigan-Dearborn\n\nAssociate Professor (2024-present)\nAssistant Professor (2018-2024)\n\nUniversity of Michigan Transportation Research Institute\n\nPostdoc (2015-2018)\n\n\n\n\nEducation\n\nPh.D. in Industrial and Operations Engineering, University of Michigan, Ann Arbor (2015)\nM.S. in Mechanical Engineering, Tsinghua University, China (2009)\nB.E. in Automotive Engineering, Tsinghua University, China (2006)\n\n\n\nTeaching\n\nIMSE 317 Engineering Probability and Statistics\nIMSE 440 Applied Statistical Models in Engineering\nIMSE 586 Big Data Analytics and Visualization\n\n\n\nAffiliations at the University of Michigan\n\nMichigan Institute for Data & AI in Society (MIDAS)\nMichigan Institute for Computational Discovery and Engineering (MICDE)\nThe Carpentries at the University of Michigan\nUniversity of Michigan Injury Prevention Center\nUniversity of Michigan Poverty Solutions\nDearborn Artificial Intelligence Research Center"
   },
   {
-    "objectID": "index.html#research-areas",
-    "href": "index.html#research-areas",
+    "objectID": "bio/index.html",
+    "href": "bio/index.html",
     "title": "Fred Feng",
     "section": "",
-    "text": "Advancing safe, sustainable, and just systems for cities and communities through data-driven insights\nFind more on our research website"
-  },
-  {
-    "objectID": "index.html#employment",
-    "href": "index.html#employment",
-    "title": "Fred Feng",
-    "section": "",
-    "text": "University of Michigan-Dearborn\n\nAssociate Professor (2024-present)\nAssistant Professor (2018-2024)\n\nUniversity of Michigan Transportation Research Institute\n\nPostdoc (2015-2018)"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Fred Feng",
-    "section": "",
-    "text": "Ph.D. in Industrial and Operations Engineering, the University of Michigan, Ann Arbor (2015)\nM.S. in Mechanical Engineering, Tsinghua University, China (2009)\nB.E. in Automotive Engineering, Tsinghua University, China (2006)"
-  },
-  {
-    "objectID": "index.html#teaching",
-    "href": "index.html#teaching",
-    "title": "Fred Feng",
-    "section": "",
-    "text": "IMSE 317 Engineering Probability and Statistics\nIMSE 440 Applied Statistical Models in Engineering\nIMSE 586 Big Data Analytics and Visualization"
-  },
-  {
-    "objectID": "index.html#affiliations-at-the-university-of-michigan",
-    "href": "index.html#affiliations-at-the-university-of-michigan",
-    "title": "Fred Feng",
-    "section": "",
-    "text": "Michigan Institute for Data & AI in Society (MIDAS)\nMichigan Institute for Computational Discovery and Engineering (MICDE)\nThe Carpentries at the University of Michigan\nUniversity of Michigan Injury Prevention Center\nUniversity of Michigan Poverty Solutions\nDearborn Artificial Intelligence Research Center"
-  },
-  {
-    "objectID": "bio.html",
-    "href": "bio.html",
-    "title": "Biography",
-    "section": "",
-    "text": "Dr. Fred Feng is an Associate Professor at the University of Michigan-Dearborn. His research focuses on advancing safe, sustainable, and just systems for cities and communities through data-driven insights."
-  },
-  {
-    "objectID": "bio.html#mini-bio",
-    "href": "bio.html#mini-bio",
-    "title": "Biography",
-    "section": "",
-    "text": "Dr. Fred Feng is an Associate Professor at the University of Michigan-Dearborn. His research focuses on advancing safe, sustainable, and just systems for cities and communities through data-driven insights."
-  },
-  {
-    "objectID": "bio.html#short-bio",
-    "href": "bio.html#short-bio",
-    "title": "Biography",
-    "section": "Short bio",
-    "text": "Short bio\nDr. Fred Feng is an Associate Professor in the Department of Industrial and Manufacturing Systems Engineering at the University of Michigan-Dearborn. Dr. Feng’s research focuses on advancing safe, sustainable, and just systems for cities and communities through data-driven insights. More information can be found at Dr. Feng’s research group website at fenggroup.org."
-  },
-  {
-    "objectID": "bio.html#mid-length-bio",
-    "href": "bio.html#mid-length-bio",
-    "title": "Biography",
-    "section": "Mid-length bio",
-    "text": "Mid-length bio\nDr. Fred Feng is an Associate Professor in the Department of Industrial and Manufacturing Systems Engineering at the University of Michigan-Dearborn. Dr. Feng’s research focuses on advancing safe, sustainable, and just systems for cities and communities through data-driven insights. Dr. Feng earned his B.E. and M.S. at Tsinghua University in China, and his PhD in Industrial and Operations Engineering from the University of Michigan, Ann Arbor. Before joining the University of Michigan-Dearborn, he worked as a postdoctoral researcher at the University of Michigan Transportation Research Institute (UMTRI). More information can be found at Dr. Feng’s research group website at fenggroup.org."
+    "text": "Mini bio\nDr. Fred Feng is an Associate Professor at the University of Michigan-Dearborn. His research focuses on advancing safe, sustainable, and just systems for cities and communities through data-driven insights.\n\n\nShort bio\nDr. Fred Feng is an Associate Professor in the Department of Industrial and Manufacturing Systems Engineering at the University of Michigan-Dearborn. Dr. Feng’s research focuses on advancing safe, sustainable, and just systems for cities and communities through data-driven insights. More information can be found at Dr. Feng’s research group website at fenggroup.org.\n\n\nMid-length bio\nDr. Fred Feng is an Associate Professor in the Department of Industrial and Manufacturing Systems Engineering at the University of Michigan-Dearborn. Dr. Feng’s research focuses on advancing safe, sustainable, and just systems for cities and communities through data-driven insights. Dr. Feng earned his B.E. and M.S. at Tsinghua University in China, and his PhD in Industrial and Operations Engineering from the University of Michigan, Ann Arbor. Before joining the University of Michigan-Dearborn, he worked as a postdoctoral researcher at the University of Michigan Transportation Research Institute (UMTRI). More information can be found at Dr. Feng’s research group website at fenggroup.org."
   }
 ]
