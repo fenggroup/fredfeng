@@ -1,12 +1,6 @@
 ---
-title: "CV"
-include-in-header:
-  - text: |
-      <style>
-        .quarto-title > h1.title {
-          display: none;
-        }
-      </style>
+title: ""
+pagetitle: "CV"
 filters:
   - multibib
 validate-yaml: false
