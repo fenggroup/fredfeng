@@ -1,12 +1,30 @@
 ---
 title: ""
-toc: false
+# toc: false
 back-to-top-navigation: false
 shift-heading-level-by: 1
 ---
+
+## Biography
 
 {{< include bio-versions/_01-mini-bio.qmd >}}
 
 {{< include bio-versions/_02-short-bio.qmd >}}
 
 {{< include bio-versions/_03-mid-length-bio.qmd >}}
+
+## Profile photos
+
+:::: {layout="[0.33, 0.33, 0.33]"}
+::: {#profile-img-gallery}
+[![](../assets/images/fredfeng-1.jpg)](../assets/images/fredfeng-1.jpg){target="_blank"}
+:::
+
+::: {#profile-img-gallery}
+[![](../assets/images/fredfeng-2.jpg)](../assets/images/fredfeng-2.jpg){target="_blank"}
+:::
+
+::: {#profile-img-gallery}
+[![](../assets/images/fredfeng-bike.jpg)](../assets/images/fredfeng-bike.jpg){target="_blank"}
+:::
+::::
