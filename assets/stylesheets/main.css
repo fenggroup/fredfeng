@@ -4,6 +4,10 @@
     margin-bottom: 0px;
 }
 
+#profile-img-gallery img{
+	border-radius:3%;
+}
+
 #homepage-container {
     position: relative;
     width: 80%;
